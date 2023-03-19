@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /sgm/data/
+Disallow: /sgm/font/
+Disallow: /sgm/image/
+Disallow: /sgmcard/bg_reference/
+Disallow: /sgmcard/font/
+Disallow: /sgmcard/fragment/
+Disallow: /sgmcard/gradient/
+Disallow: /sgmcard/library/
+Disallow: /sgmcard/menu/
+Disallow: /sgmpalette/icon/
+Disallow: /sgmpalette/library/
+Disallow: /sgmpalette/sprite/
+Disallow: /sgmpalette/texture/
