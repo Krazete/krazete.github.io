@@ -8,6 +8,7 @@ Disallow: /sgmcard/fragment/
 Disallow: /sgmcard/gradient/
 Disallow: /sgmcard/library/
 Disallow: /sgmcard/menu/
+Disallow: /sgmpalette/custom/
 Disallow: /sgmpalette/icon/
 Disallow: /sgmpalette/library/
 Disallow: /sgmpalette/sprite/
