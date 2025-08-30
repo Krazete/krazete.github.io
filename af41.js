@@ -115,7 +115,7 @@
 </div>`;
         var note41 = document.createElement("div");
         note41.id = "note41";
-        note41.innerHTML = note;
+        note41.innerHTML = note || "";
         inner41.appendChild(note41);
         var close41 = document.createElement("div");
         close41.id = "close41";
