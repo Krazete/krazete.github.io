@@ -13,12 +13,16 @@
         afstyle = document.createElement("style");
         afstyle.innerHTML = `#af41 {
     background-color: rgba(0, 0, 0, 0.5);
+    text-transform: none;
     position: absolute;
     left: 0;
     top: 0;
     width: 100vw;
     height: 100vh;
     z-index: 1;
+}
+#af41 h1 {
+    text-shadow: none;
 }
 #square41 {
     font-family: Arial, Helvetica, sans-serif;
