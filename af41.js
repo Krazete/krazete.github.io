@@ -1,4 +1,21 @@
 (function () {
+    var kzn = document.createElement("div");
+    kzn.style.position = "fixed";
+    kzn.style.left = "12px";
+    kzn.style.top = "12px";
+    kzn.innerHTML = "Join KZN";
+    kzn.style.textTransform = "none";
+    kzn.style.fontFamily = "monospace";
+    kzn.style.background = "black";
+    kzn.style.color = "pink";
+    kzn.style.opacity = 0.5;
+    kzn.style.padding = "5px";
+    kzn.style.borderRadius = "5px";
+    kzn.style.fontSize = "10px";
+    kzn.style.zIndex = "630";
+    kzn.style.pointerEvents = "none";
+    document.body.appendChild(kzn);
+    
     var dt = new Date;
     var month = dt.getMonth() + 1;
     var day = dt.getDate();
