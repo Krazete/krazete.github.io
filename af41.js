@@ -1,16 +1,16 @@
 (function () {
     var kzn = document.createElement("div");
-    kzn.style.position = "fixed";
-    kzn.style.left = "12px";
-    kzn.style.top = "12px";
     kzn.innerHTML = "Join KZN";
+    kzn.style.position = "fixed";
+    kzn.style.left = "0";
+    kzn.style.bottom = "0";
     kzn.style.textTransform = "none";
     kzn.style.fontFamily = "monospace";
     kzn.style.background = "black";
     kzn.style.color = "pink";
-    kzn.style.opacity = 0.5;
-    kzn.style.padding = "5px";
-    kzn.style.borderRadius = "5px";
+    kzn.style.opacity = 0.67;
+    kzn.style.padding = "1px 3px";
+    kzn.style.borderRadius = "0 4px 0 0";
     kzn.style.fontSize = "10px";
     kzn.style.zIndex = "630";
     kzn.style.pointerEvents = "none";
