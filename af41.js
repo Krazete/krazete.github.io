@@ -8,12 +8,14 @@
     kzn.style.fontFamily = "monospace";
     kzn.style.background = "black";
     kzn.style.color = "pink";
-    kzn.style.opacity = 0.67;
     kzn.style.padding = "1px 3px";
     kzn.style.borderRadius = "0 4px 0 0";
     kzn.style.fontSize = "10px";
     kzn.style.zIndex = "630";
     kzn.style.pointerEvents = "none";
+    kzn.style.transition = "opacity 9s";
+    kzn.style.opacity = 1;
+    setTimeout(function () {kzn.style.opacity = 0}, 1000);
     document.body.appendChild(kzn);
     
     var dt = new Date;
