@@ -2,14 +2,14 @@
     var kzn = document.createElement("div");
     kzn.innerHTML = "Join KZN";
     kzn.style.position = "fixed";
-    kzn.style.left = "0";
+    kzn.style.left = "30px";
     kzn.style.bottom = "0";
     kzn.style.textTransform = "none";
     kzn.style.fontFamily = "monospace";
     kzn.style.background = "black";
     kzn.style.color = "pink";
     kzn.style.padding = "1px 3px";
-    kzn.style.borderRadius = "0 4px 0 0";
+    kzn.style.borderRadius = "4px 4px 0 0";
     kzn.style.fontSize = "10px";
     kzn.style.zIndex = "630";
     kzn.style.pointerEvents = "none";
